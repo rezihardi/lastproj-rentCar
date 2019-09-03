@@ -1,0 +1,27 @@
+{
+  "name": "Commodity",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "categoty": {
+      "type": "string",
+      "required": true
+    },
+    "nameProduct": {
+      "type": "string",
+      "required":true
+    },
+    "pic": {
+      "type": "string",
+      "required": true
+    }
+  },
+
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
