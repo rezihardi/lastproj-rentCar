@@ -6,14 +6,11 @@
     "validateUpsert": true
   },
   "properties": {
-    "idCostumer": {
+    "idUSer": {
       "type": "string",
       "required": true
     },
-    "idProduct": {
-      "type": "string"
-    },
-    "quantity": {
+    "qHari": {
       "type": "string"
     },
     "totalPayment": {
@@ -24,7 +21,8 @@
       "required": true
     },
     "createAt": {
-      "type": "date"
+      "type": "date",
+      "defaultFn": "now"
     }
   },
 

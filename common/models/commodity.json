@@ -17,6 +17,22 @@
     "pic": {
       "type": "string",
       "required": true
+    },
+    "noPol": {
+      "type": "string",
+      "required": true
+    },
+    "daysPrice": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "createAt": {
+      "type": "string",
+      "defaultFn" : "now"
     }
   },
 
