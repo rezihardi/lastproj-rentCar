@@ -12,7 +12,7 @@
     },
     "nameProduct": {
       "type": "string",
-      "required":true
+      "required": true
     },
     "pic": {
       "type": "string",
@@ -32,10 +32,9 @@
     },
     "createAt": {
       "type": "string",
-      "defaultFn" : "now"
+      "defaultFn": "now"
     }
   },
-
   "validations": [],
   "relations": {},
   "acls": [],

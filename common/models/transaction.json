@@ -25,7 +25,6 @@
       "defaultFn": "now"
     }
   },
-
   "validations": [],
   "relations": {},
   "acls": [],

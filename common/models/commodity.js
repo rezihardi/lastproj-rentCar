@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function(Commodity) {
-
+module.exports = function(Commodity) {   
+    
 };
