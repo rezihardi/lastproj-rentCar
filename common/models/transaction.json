@@ -11,7 +11,7 @@
       "required": true
     },
     "qHari": {
-      "type": "string"
+      "type": "date"
     },
     "totalPayment": {
       "type": "string"
