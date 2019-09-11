@@ -10,10 +10,19 @@
       "type": "string",
       "required": true
     },
-    "qHari": {
+    "qHari1": {
+      "type": "date"
+    },
+    "qHari2": {
       "type": "date"
     },
     "totalPayment": {
+      "type": "string"
+    },
+    "ktp": {
+      "type": "string"
+    },
+    "sim": {
       "type": "string"
     },
     "status": {
