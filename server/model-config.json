@@ -40,5 +40,9 @@
   "Users": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "Pengguna": {
+    "dataSource": "mysql",
+    "public": true
   }
 }

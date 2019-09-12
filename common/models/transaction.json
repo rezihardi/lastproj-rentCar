@@ -35,7 +35,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "commodity": {
+      "type": "hasMany",
+      "model": "commodity",
+      "foreginKey": "penggunaId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

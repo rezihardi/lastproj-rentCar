@@ -11,5 +11,14 @@
     "connector": "mongodb",
     "extended_operators": true,
     "allowExtendedOperators": true
+  },
+  "mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "db_car",
+    "username": "root",
+    "password": "robi",
+    "name": "mysql",
+    "connector":"mysql"
   }
 }

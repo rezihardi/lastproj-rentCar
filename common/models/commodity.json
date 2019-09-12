@@ -37,10 +37,15 @@
   },
   "validations": [],
   "relations": {
-    "users": {
+    "pengguna": {
       "type": "belongsTo",
-      "model": "Users",
-      "foreginKey": "usersId"
+      "model": "Pengguna",
+      "foreginKey": "penggunaId"
+    },
+    "transaction": {
+      "type": "belongsTo",
+      "model": "Transaction",
+      "foreginKey": "transactionId"
     }
   },
   "acls": [],

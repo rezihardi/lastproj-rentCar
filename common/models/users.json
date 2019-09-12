@@ -7,21 +7,7 @@
   },
   "properties": {},
   "validations": [],
-  "relations": {
-    "commodity": {
-      "type": "hasMany",
-      "model": "Commodity",
-      "foreignKey": "commodityId"
-    }
-  },
-  "acls": [
-    {
-      "accessType": "EXECUTE",
-      "principalType": "ROLE",
-      "principalId": "$everyone",
-      "permission": "ALLOW",
-      "property": "getUsersByUsername"
-    }
-  ],
+  "relations": {},
+  "acls": [],
   "methods": {}
 }
